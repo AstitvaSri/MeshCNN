@@ -12,3 +12,4 @@ python test.py \
 --resblocks 3 \
 --batch_size 12 \
 --export_folder meshes \
+--is_train False \
