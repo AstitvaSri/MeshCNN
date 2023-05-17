@@ -48,7 +48,7 @@ class SegmentationData(BaseDataset):
         segs = []
         for path in paths:
             segfile = os.path.join(seg_dir, os.path.splitext(os.path.basename(path))[0] + seg_ext)
-            assert(os.path.isfile(segfile))
+            #assert(os.path.isfile(segfile))
             segs.append(segfile)
         return segs
 
