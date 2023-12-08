@@ -2,6 +2,7 @@ import torch
 from . import networks
 from os.path import join
 from util.util import seg_accuracy, print_network
+import os
 
 
 class ClassifierModel:
